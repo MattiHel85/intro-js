@@ -14,14 +14,14 @@
 
 /* Clock styles */
 .circle {
-    fill: none;
-    stroke: #000;
+    fill: pink;
+    stroke: rgb(255, 0, 0);
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
 
 .mid-circle {
-    fill: #000;
+    fill: rgb(251, 0, 0);
 }
 .hour-marks {
     fill: none;
