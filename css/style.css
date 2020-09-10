@@ -1,7 +1,8 @@
 /* Layout */
 .main {
     display: flex;
-    padding: 2em;
+    flex-direction: column;
+    padding: 4em;
     height: 90vh;
     justify-content: center;
     align-items: middle;
@@ -64,3 +65,30 @@
     transform-origin: 300px 300px;
     transition: transform .5s ease-in-out;
 }
+
+/* alarm  */
+
+section {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+section h3 {
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 1rem;
+}
+
+section label {
+    margin-left: 40%;
+    margin-bottom: 1rem;
+}
+
+section select {
+    width: 20%;
+    margin-left: 40%;
+    padding: 5px;
+}
+
+
